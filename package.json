@@ -1,0 +1,12 @@
+{
+  "name": "auto-date-version",
+  "version": "0.1.0",
+  "main": "./bin/auto-date-version.js",
+  "license": "MIT",
+  "bin": {
+    "auto-date-version": "./bin/auto-date-version.js"
+  },
+  "dependencies": {
+    "commander": "^2.18.0"
+  }
+}

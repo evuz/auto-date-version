@@ -10,12 +10,12 @@ program.version(version, "-v, --version");
 program
   //   .option("-p, --path <p>", "Path to search HTML file")
   .option("-f, --file <f>", "HTML file to replace")
-  .option("-b, --build <cmd>", "Build command")
+  .option("-c, --cmd <cmd>", "Build command")
   .parse(process.argv);
 
 autoDateVersion(
   rootPath,
   path.resolve(rootPath, program.path || ""),
   program.file,
-  program.build
+  program.cmd
 );
